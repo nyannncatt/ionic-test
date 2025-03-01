@@ -16,7 +16,7 @@ import { easelOutline, keyOutline, personCircleOutline, tvOutline } from 'ionico
 function Login() {
   const navigation = useIonRouter();
   const doLogin = () => {
-    navigation.push('/it35-lab/app', 'forward', 'replace');
+    navigation.push('/ionic-test/app', 'forward', 'replace');
   };
   return (
     <IonPage>
@@ -50,4 +50,4 @@ function Login() {
     </IonPage>
   );
 }
-export default Login;
+export default Login
